@@ -34,6 +34,5 @@ public class UserHelper extends HelperBase {
         Thread.sleep(3000);
         return isElementPresent(By.xpath("//img[@class='_2hx57UFtqOV2rX']"));
 
-       // return isElementPresent(By.cssSelector("[data-test-id=\"header-member-menu-button\"]"));
-    }
+           }
 }

@@ -1,5 +1,6 @@
 package com.telran.trello.fw;
 
+import com.telran.trello.model.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -46,4 +47,5 @@ public class HelperBase {
     public void clickYallaButton() {
         click(By.cssSelector("[type=\"submit\"]"));
     }
+
 }
